@@ -27,3 +27,9 @@ export const sidebarLinks = [
     route: routes.PersonalRoom,
   },
 ];
+
+export const MEETINGS_TYPE = {
+  IsScheduleMeeting: "isScheduleMeeting",
+  IsJoiningMeeting: "isJoiningMeeting",
+  IsInstantMeeting: "isInstantMeeting",
+} as const;

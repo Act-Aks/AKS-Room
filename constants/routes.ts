@@ -4,5 +4,5 @@ export default {
   Previous: "/previous",
   Recordings: "/recordings",
   PersonalRoom: "/personal-room",
-  Meeting: "/meeting",
+  Meeting: "/meeting/:id",
 };
